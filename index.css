@@ -1,0 +1,43 @@
+header{
+    background-color: black;
+    /* border:2px solid red; */
+    padding: 10px;
+}
+.searchbar{
+    width:80%;
+    margin:0 auto;
+    /* border:2px solid blue; */
+    padding:5px;
+    display:flex;
+    justify-content: space-between;
+
+}
+.logo>img{
+    /* border:2px solid yellow; */
+    height:150px;
+    width:200px;
+}
+.search{
+    /* border:2px solid green; */
+    display:flex;
+    align-items: center;
+    width:80%;
+}
+.inputbar{
+    width:100%;
+}
+body{
+    background-color: black;
+}
+.container{
+    margin:0 auto;
+}
+*{
+    background-color: black;
+}
+.col{
+    --bs-border-width:0;
+}
+.card-title,.card-text{
+    color:white;
+}
